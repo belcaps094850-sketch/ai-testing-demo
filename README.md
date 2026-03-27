@@ -1,16 +1,32 @@
-# React + Vite
+# AI Testing Demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Interactive demo app showcasing 8 AI-powered software testing use cases.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Test Case Generation** — AI writes test cases from requirements
+- **Visual Regression** — AI-powered screenshot comparison
+- **API Contract Testing** — Validate endpoints against specs
+- **Accessibility Audit** — Automated WCAG compliance checks
+- **Performance Profiling** — AI-assisted load test analysis
+- **Log Analysis** — Pattern detection in error logs
+- **Data Generation** — Synthetic test data creation
+- **Self-Healing Tests** — Auto-fix broken selectors
 
-## React Compiler
+## Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React + Vite
+- No backend — pure frontend demos with mock data
 
-## Expanding the ESLint configuration
+## Run
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev     # http://localhost:5173
+npm run build   # Production build → dist/
+```
+
+## Related
+
+- Built for Bel's "AI in Software Testing" lunch & learn
+- Part of the [Bel Learning Lab](https://github.com/belcaps094850-sketch/forgerock-learning-lab) ecosystem
